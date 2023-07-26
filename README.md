@@ -10,7 +10,7 @@
 
 安装 `GitBook` 简单又直接, 您的系统只需要满足这两个要求：
 
-* [Node.JS](https://nodejs.org/en/)（v4.0.0 \~  `GitBook` 是一个基于 Node.js 的命令行工具）
+* [Node.JS](https://nodejs.org/en/)（版本：v4.0.0 \~ v10.24.1  `GitBook` 是一个基于 Node.js 的命令行工具）
 * Windows, Linux, Unix, or Mac OS X
 
 #### 通过 NPM 安装
@@ -45,16 +45,11 @@ gitbook init
 {
     "title": "GitBook",
     "author": "Mr.B",
-    "description": "这是一个读书笔记",
+    "description": "这是一个笔记",
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "structure": {
         "readme": "README.md"
-    },
-    "links": {
-        "sidebar": {
-            "个人主页": "https://wodaixin.github.io"
-        }
     },
     "plugins": [
         "highlight",
