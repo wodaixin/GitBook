@@ -56,9 +56,6 @@ gitbook init
             "个人主页": "https://wodaixin.github.io"
         }
     },
-    "structure": {
-        "readme": "README.md"
-    },
     "plugins": [
         "highlight",
         "livereload"
